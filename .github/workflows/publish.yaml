@@ -7,8 +7,8 @@ on:
     branches:
       - 'ci'
 env:
-  RUST_DIEM_COIN_MODULE: "libra_coin"
-  RUST_DIEM_COIN_NAME: "LibraCoin"
+  RUST_DIEM_COIN_MODULE: "lotus_coin"
+  RUST_DIEM_COIN_NAME: "LotusCoin"
 
 jobs:
   publish:
